@@ -7,6 +7,10 @@ stages
     {
         steps{sh 'echo code is copy'}
     }
+    stage ('second stage')
+    {
+        steps{sh 'echo second stage'}
+    }
 
 
 }
